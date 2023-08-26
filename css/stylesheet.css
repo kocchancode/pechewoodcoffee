@@ -62,9 +62,11 @@ p{
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(3,0.5fr);
     object-fit: contain;
+    /* (梶屋)object-fitはcontainよりもcoverがおすすめです　違いは調べてみてください〜 */
     width: 80%;
     height: 60%;
     margin-left: 5rem;
+    /* (梶屋)一旦widthとheightとmargin-leftは外してみましょう！ */
 }
 .big-box1{
     grid-column: 1/3;
@@ -74,6 +76,7 @@ p{
     grid-column: 3/4;
     grid-row: 1/3;
 }
+/* (梶屋)grid-columnとgrid-rowは5つのimage全てに設定してみましょう！ */
 .menu-title{
     margin-left: 18rem;
 }
