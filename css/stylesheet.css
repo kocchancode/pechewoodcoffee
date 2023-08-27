@@ -59,8 +59,8 @@ p{
 }
 .grid{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,0.5fr);
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 200px 200px 200px;
     /* 
         (梶屋)表示がうまくいかないのは、このあたりの設定がうまくいっていないですね
         grid-template-columnsとrowsでrepeatを使う時は、frは使わない方が賢明です
@@ -68,11 +68,6 @@ p{
         https://shu-naka-blog.com/css/grid-row-column/#:~:text=%E3%81%8C%E3%81%A7%E3%81%8D%E3%81%BE%E3%81%99%E3%80%82-,%E3%82%B0%E3%83%AA%E3%83%83%E3%83%89%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88%E3%82%92%E4%BD%9C%E6%88%90%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6,-%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0%E3%82%92%E8%A1%8C
     */
     object-fit: cover;
-    /* (梶屋)object-fitはcontainよりもcoverがおすすめです　違いは調べてみてください〜 */
-   /* width: 80%;
-    height: 60%;
-    margin-left: 5rem;*/
-    /* (梶屋)一旦widthとheightとmargin-leftは外してみましょう！ */
 }
 .big-box1{
     grid-column: 1/3;
@@ -82,7 +77,6 @@ p{
     grid-column: 3/4;
     grid-row: 1/3;
 }
-/* (梶屋)grid-columnとgrid-rowは5つのimage全てに設定してみましょう！ */
 .image3{
     grid-column:1/2;
     grid-row:3/4;
@@ -93,7 +87,7 @@ p{
 }
 .image5{
     grid-column:3/4;
-    grid-roe:3/4;
+    grid-row:3/4;
     /* (梶屋)↑ */
 }
 /* 
