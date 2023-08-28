@@ -95,7 +95,6 @@ p{
 .menu-list{
     display: flex;
     margin-left: 15rem;
-    margin-bottom:10px;
 }
 .menu-list dl{
     display: table;
@@ -128,6 +127,7 @@ p{
     width: 100vw;
     height: 30%;
     background-color: #f0eceb;
+    margin-bottom:10px;
 }
 .info-box{
     display: flex;
