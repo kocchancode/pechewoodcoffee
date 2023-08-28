@@ -127,7 +127,7 @@ p{
     width: 100vw;
     height: 30%;
     background-color: #f0eceb;
-    margin-bottom:10px;
+    padding-bottom:10px;
 }
 .info-box{
     display: flex;
