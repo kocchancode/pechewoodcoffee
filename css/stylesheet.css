@@ -67,7 +67,8 @@ p{
     height:100%;
     object-fit:cover;
 }
-.big-box1{
+
+/*.big-box1{
     grid-column: 1 / 3;
     grid-row: 1 / 3;
 }
@@ -87,6 +88,8 @@ p{
     grid-column: 3 / 4;
     grid-row: 3 / 4 ;
 }
+*/
+
 .menu-title{
     margin-left: 18rem;
 }
