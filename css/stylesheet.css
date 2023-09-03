@@ -55,8 +55,8 @@ p{
 }
 .grid{
     display: grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
     grid-gap:10px;
 }
 .grid img{
@@ -165,11 +165,4 @@ footer{
    position:relative;
 }
 
-/*mediaqueries*/
-@media (max-width:600px){
-    .grid{
-         grid-template-columns:auto;
-         grid-template-rows:auto ;
-    }
-}
 
