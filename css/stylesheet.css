@@ -166,7 +166,7 @@ footer{
 }
 
 /*mediaqueries*/
-@media screen and (max-width:600px){
+@media (max-width:600px){
     .grid{
          grid-template-columns:auto;
          grid-template-rows:auto ;
