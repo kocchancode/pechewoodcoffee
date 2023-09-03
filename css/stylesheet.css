@@ -154,7 +154,6 @@ footer{
     height: 100%;
     width: 100vw;
     object-fit: cover;
-    position:relation;
 }
 
 .wrapper-box{
@@ -162,15 +161,15 @@ footer{
    color: #f0eceb;
    height: 3rem;
    width: 100%;
-   margin:-3rem;
-   position:relation;
+   margin-top:-3rem;
+   position:relative;
 }
 
 /*mediaqueries*/
 @media screen and (max-width:600px){
     .grid{
-         grid-template-columns: auto;
-         grid-template-rows: auto;
+         grid-template-columns:auto;
+         grid-template-rows:auto ;
     }
 }
 
