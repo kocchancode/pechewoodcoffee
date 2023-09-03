@@ -154,6 +154,7 @@ footer{
     height: 100%;
     width: 100vw;
     object-fit: cover;
+    position:relation;
 }
 
 .wrapper-box{
@@ -162,6 +163,7 @@ footer{
    height: 3rem;
    width: 100%;
    margin:-3rem;
+   position:relation;
 }
 
 /*mediaqueries*/
